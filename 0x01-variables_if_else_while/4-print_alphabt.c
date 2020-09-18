@@ -11,7 +11,7 @@ int main(void)
 	int i = 'a';
 	while (i <= 122)
 	{
-		if (i != 101 && i != 113)
+		if (i != 'e' && i != 'q')
 		{
 			putchar(i);
 		}
